@@ -11,3 +11,6 @@ function imprimir() {
 }
 
 imprimir();
+
+// Primero imprimrá los "console.log" q se encuentren en el hilo principal de ejecución y después los q se encuentren dentro de las funciones anónimas. Pero respetando su orden segun los setTimeout...
+// RESULTADO 1 - 4 - 3 - 2
